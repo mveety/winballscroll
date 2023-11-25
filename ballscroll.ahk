@@ -5,11 +5,11 @@ SetWorkingDir %A_ScriptDir%
 #InstallMouseHook
 #UseHook
 
-$*XButton1::
-	return
+;$*XButton1::
+;	return
 
-$*XButton1 UP::
-	return
+;$*XButton1 UP::
+;	return
 
 $*XButton2::  ; disabled xbutton1 up hotkey for some reason
 	movedx := 0
